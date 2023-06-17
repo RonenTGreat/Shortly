@@ -1,7 +1,16 @@
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Boost from "./components/Boost"
+import Advanced from "./components/Advanced"
+
 function App() {
   return (
     <>
-      <h1 className="">Hello World</h1> 
+      <Header />
+      <Advanced />
+      <Boost />
+      <Footer />
+
     </>
   )
 }
