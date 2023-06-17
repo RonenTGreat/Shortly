@@ -7,7 +7,7 @@ const Advanced = () => {
     <>
       <section className=" bg-gray-100 py-10 lg:pt-20 lg:pb-48">
         <div className="max-width">
-          <h2 className=" text-4xl font-bold mb-3 text-veryDarkBlue text-center">
+          <h2 className=" text-4xl font-bold mb-3 mt-28 text-veryDarkBlue text-center">
             Advanced Statistics
           </h2>
           <p className=" text-slate-300 text-center mb-10 lg:mb-20">
@@ -15,10 +15,14 @@ const Advanced = () => {
             advanced statistics dashboard
           </p>
 
-          <div className="relative card grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <div className="line"></div>
+          <div className="relative card grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3 md:gap-5 ">
+            <div className="line"></div>
             <article className=" bg-white p-8 rounded relative">
-              <img src={brand} alt="" className=" p-3 -mt-12 bg-darkViolet rounded-full" />
+              <img
+                src={brand}
+                alt=""
+                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+              />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Brand Recognition
               </h3>
@@ -30,7 +34,11 @@ const Advanced = () => {
             </article>
 
             <article className=" bg-white p-8 rounded relative">
-              <img src={records} alt="" className=" p-3 -mt-12 bg-darkViolet rounded-full" />
+              <img
+                src={records}
+                alt=""
+                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+              />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Detailed Records
               </h3>
@@ -42,7 +50,11 @@ const Advanced = () => {
             </article>
 
             <article className=" bg-white p-8 rounded relative">
-              <img src={fully} alt="" className=" p-3 -mt-12 bg-darkViolet rounded-full" />
+              <img
+                src={fully}
+                alt=""
+                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+              />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Fully Customizable
               </h3>
