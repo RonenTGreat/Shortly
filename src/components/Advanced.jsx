@@ -21,7 +21,7 @@ const Advanced = () => {
               <img
                 src={brand}
                 alt=""
-                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+                className=" p-3 -mt-16 bg-darkViolet rounded-full middle lg:ml-0"
               />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Brand Recognition
@@ -37,7 +37,7 @@ const Advanced = () => {
               <img
                 src={records}
                 alt=""
-                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+                className=" p-3 -mt-16 bg-darkViolet rounded-full middle lg:ml-0"
               />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Detailed Records
@@ -53,7 +53,7 @@ const Advanced = () => {
               <img
                 src={fully}
                 alt=""
-                className=" p-3 -mt-16 bg-darkViolet rounded-full"
+                className=" p-3 -mt-16 bg-darkViolet rounded-full middle lg:ml-0"
               />
               <h3 className=" text-veryDarkBlue text-lg mb-2 mt-5 font-bold">
                 Fully Customizable

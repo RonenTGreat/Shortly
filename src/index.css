@@ -85,3 +85,10 @@ h1{
 
   }
 }
+
+
+@layer utilities{
+  .middle{
+    margin-left: calc(50% - 2rem);
+  }
+}
