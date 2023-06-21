@@ -5,7 +5,7 @@ import fully from "../assets/images/icon-fully-customizable.svg";
 const Advanced = () => {
   return (
     <>
-      <section className=" bg-gray-100 py-10 lg:pt-20 lg:pb-48">
+      <section className=" bg-gray-100 -mt-20 py-48 lg:py-10 lg:pt-20 lg:pb-48">
         <div className="max-width">
           <h2 className=" text-4xl font-bold mb-3 mt-28 text-veryDarkBlue text-center">
             Advanced Statistics

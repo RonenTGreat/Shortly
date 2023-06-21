@@ -54,7 +54,7 @@ useEffect(() => {
 
   return (
     <>
-      <section className="shortener relative">
+      <section className="shortener relative mx-8">
         <picture>
           <source media="(min-width: 768px)" srcSet={bgDesktop} />
           <img src={bgMobile} alt="" />
