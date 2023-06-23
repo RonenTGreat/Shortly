@@ -77,9 +77,7 @@ const Shorten = () => {
               <p className=" text-myRed text-sm lg:hidden">Please add a link</p>
             )}
             {isInvalidate && (
-              <p className=" text-myRed text-sm lg:hidden">
-                Invalidate link
-              </p>
+              <p className=" text-myRed text-sm lg:hidden">Invalidate link</p>
             )}
 
             <button

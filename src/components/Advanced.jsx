@@ -7,7 +7,7 @@ const Advanced = () => {
     <>
       <section className=" bg-gray-100 -mt-20 py-48 lg:py-10 lg:pt-20 lg:pb-48">
         <div className="max-width">
-          <h2 className=" text-4xl font-bold mb-3 mt-28 text-veryDarkBlue text-center">
+          <h2 className=" center text-4xl font-bold mb-3 mt-28 text-veryDarkBlue text-center">
             Advanced Statistics
           </h2>
           <p className=" text-slate-300 text-center mb-10 lg:mb-20">
@@ -17,7 +17,7 @@ const Advanced = () => {
 
           <div className="relative card grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3 md:gap-5 ">
             <div className="line"></div>
-            <article className=" bg-white p-8 rounded relative">
+            <article className=" text-center lg:text-left bg-white p-8 rounded relative">
               <img
                 src={brand}
                 alt=""
@@ -33,7 +33,7 @@ const Advanced = () => {
               </p>
             </article>
 
-            <article className=" bg-white p-8 rounded relative">
+            <article className=" text-center lg:text-left bg-white p-8 rounded relative">
               <img
                 src={records}
                 alt=""
@@ -49,7 +49,7 @@ const Advanced = () => {
               </p>
             </article>
 
-            <article className=" bg-white p-8 rounded relative">
+            <article className=" text-center lg:text-left bg-white p-8 rounded relative">
               <img
                 src={fully}
                 alt=""
