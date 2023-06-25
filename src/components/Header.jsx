@@ -14,13 +14,13 @@ const Header = () => {
 
             <nav className="hidden md:block ml-5 text-slate-400">
               <ul className="flex items-center justify-start">
-                <li>
+                <li className=" hover:text-darkViolet">
                   <button>Features</button>
                 </li>
-                <li className=" my-5 md:my-0 md:mx-5">
+                <li className=" my-5 md:my-0 md:mx-5 hover:text-darkViolet">
                   <button>Pricing</button>
                 </li>
-                <li>
+                <li className=" hover:text-darkViolet">
                   <button>Resources</button>
                 </li>
               </ul>
@@ -28,7 +28,7 @@ const Header = () => {
 
             <ul className=" hidden md:flex items-center ml-[35rem]">
               <li className="my-5 md:my-0 md:mr-5">
-                <button className="text-slate-400">Login</button>
+                <button className="text-slate-400 hover:text-darkViolet">Login</button>
               </li>
               <li>
                 <button className="btn-cta rounded-full">Sign up</button>
