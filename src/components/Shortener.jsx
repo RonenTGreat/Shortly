@@ -49,7 +49,7 @@ const Shorten = () => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(links.full_short_link);
-    setButtonText("Copied");
+    setButtonText("Copied!");
   };
 
   useEffect(() => {
