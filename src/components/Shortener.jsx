@@ -39,6 +39,8 @@ const Shorten = () => {
           setLinks(data.result);
           setIsSuccess(true);
           setText("");
+          setIsInvalidate(false)
+          setIsEmpty(false)
         };
         shortenLink();
       } else {
