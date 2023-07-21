@@ -70,16 +70,16 @@ const Shorten = () => {
           <div className="flex flex-col md:flex-row">
             <input
               type="url"
-              className="w-full py-2 px-5 rounded-lg mb-2 md:mb-0 md:w-2/3"
+              className= {`w-full py-2 px-5 rounded-lg mb-2 md:mb-0 md:w-2/3 ${isEmpty || isInvalidate ? 'border-solid border-2 border-myRed':''}` }
               placeholder="Shorten a link here..."
               value={text}
               onChange={(e) => setText(e.target.value)}
             />
             {isEmpty && (
-              <p className=" text-myRed text-sm lg:hidden">Please add a link</p>
+              <p className="text-myRed text-sm lg:hidden">Please add a link</p>
             )}
             {isInvalidate && (
-              <p className=" text-myRed text-sm lg:hidden">Invalidate link</p>
+              <p className="text-myRed text-sm lg:hidden">Invalidate link</p>
             )}
 
             <button
